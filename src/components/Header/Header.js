@@ -15,8 +15,6 @@ import Navigation from '../Navigation';
 import logoUrl from './logo-small.png';
 import logoUrl2x from './logo-small@2x.png';
 import * as ReactDOM from 'react-dom';
-import { Button } from 'office-ui-fabric-react/lib/Button';
-
 
 class Header extends React.Component {
   render() {
@@ -28,7 +26,6 @@ class Header extends React.Component {
             <img src={logoUrl} srcSet={`${logoUrl2x} 2x`} width="38" height="38" alt="React" />
             <span className={s.brandTxt}>pRoloc</span>
           </Link>
-          <div><Button>I am a button.</Button></div>
           <div className={s.banner}>
           </div>
         </div>
